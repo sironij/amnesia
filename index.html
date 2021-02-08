@@ -2,50 +2,135 @@
 <html lang="en">
 
 <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <title>Amnesia home</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 
-  <title>Amnesia</title>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slippry.css" />
+  <link rel="stylesheet" href="css/jquery.slicknav.min.css" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="js/owl-carousel/owl.theme.css">
 
   <link href="css/css.css" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
 </head>
 
 <body>
 
-  <div id="wrapper">
-    <div id="logo">
-      <img src="images/logo.svg">
-      <h2 style="color:lightgray; text-align:center; padding-top:2em;">sottotitolo bellissimo e sognante</h2>
+  <div id="container">
 
+
+
+    <div id="sidebar">
+      <div class="menu">
+        <a class="active" id="home">AMNESIA</a>
+        <a href="people.html" class="item">People</a>
+        <a href="places.html" class="item">Places</a>
+        <a href="objects.html" class="item">Objects</a>
+        <a href="actions.html" class="item">Actions</a>
+        <a href="emotions.html" class="item">Emotions</a>
+        <a href="perceptions.html" class="item">Perceptions</a>
+        <a href="cognitions.html" class="item">Cognitions</a>
+
+        <a href="overview.html" id="overview">OVERVIEW</a>
+      </div>
     </div>
 
-    <div id="start">
-      <a href="home.html"> enter </a>
+
+    <div id="content">
+      <div id="logo-light">
+        <img src="images/logo-light.svg">
+      </div>
+
+      <div id="intro">
+        <div class="intro_p" >
+          <p> How does human memory fade out?<br>
+            Our memory regression is not constant and is variable.</p>
+
+          <p>While we forget we miss more and more details of a memory, until it deletes completely.<br> Our memory fades out like the film of old photographs.</p>
+
+
+          <p>Human memory is quantifiable and a study published on "<a style="color:white; text-decoration:underline;" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6793126/" target="_blank">Journal of neuroscience</a>" demonstrates it.<br>
+            Data show how memories stick on our minds differently depending on topics and subjects.</p>
+
+          <p>The goal of the project is to reflect on the fragility of memories.</p><br><br><br>
+
+          <a href="prez.pdf" style="color:black; text-decoration: underline">Read the full presentation</a><br><br>
+            <a href="https://en.wikipedia.org/wiki/Forgetting_curve" target="_blank" style="color:black; text-decoration: underline">WIKI</a><br>
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6793126/" target="_blank" style="color:black; text-decoration: underline">NCBI</a>
+</div>
+
+      </div>
     </div>
+
   </div>
 
+  <div class="footer">
 
+    <div class="col-1">
+      <ul>
+        <img src="images/logo_density.png">
+        <img src="images/logo_polimi.png">
+      </ul>
+    </div>
+
+    <div class="col-2">
+      <ul>
+        <li>FACULTY</li><br>
+        <li>Michele Mauri</li>
+        <li>Ángeles Briones</li>
+        <li>Gabriele Colombo</li>
+        <li>Simone Vantini</li>
+        <li>Salvatore Zingale</li>
+      </ul>
+    </div>
+
+    <div class="col-3">
+      <ul>
+        <li>TEACHING ASSISTANTS</li><br>
+        <li>Antonella Autuori</li>
+        <li>Andrea Benedetti</li>
+        <li>Matteo Bettini</li>
+        <li>Andrea Elena Febres Medina</li>
+        <li>Beatrice Gobbo</li>
+        <li>Tommaso Elli</li>
+      </ul>
+    </div>
+
+    <div class="col-5">
+      <ul>
+        <li> EXTERNAL LINKS</li><br>
+        <li style="text-decoration: underline;"><a href="https://www.instagram.com/densitydesign/" target="blank">Instagram</a></li>
+        <li style="text-decoration: underline;"><a href="https://densitydesign.github.io/teaching-dd16/" target="blank">DD16</a></li>
+        <li style="text-decoration: underline;"><a href="https://densitydesign.org" target="blank">densitydesign.org</a></li>
+        <br>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/slippry.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  <script src="js/jquery.mixitup.min.js"></script>
+  <script src="js/owl-carousel/owl.carousel.min.js"></script>
+  <script src="js/skrollr.min.js"></script>
+  <script src="js/skrollr.menu.min.js"></script>
 
   <script src="js/js.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
 </body>
 
 </html>
